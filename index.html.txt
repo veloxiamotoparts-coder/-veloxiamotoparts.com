@@ -7,46 +7,59 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: Arial;
             background: #0f0f0f;
             color: white;
-            text-align: center;
         }
 
         .container {
+            text-align: center;
             padding: 60px 20px;
         }
 
         h1 {
-            font-size: 40px;
-            letter-spacing: 2px;
+            font-size: 38px;
         }
 
         p {
             color: #aaa;
-            font-size: 16px;
         }
 
         .btn {
-            margin-top: 20px;
-            padding: 14px 24px;
             background: white;
             color: black;
+            padding: 14px 24px;
             text-decoration: none;
-            display: inline-block;
-            font-weight: bold;
             border-radius: 8px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
         }
 
         .section {
             padding: 50px 20px;
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 15px;
         }
 
         .card {
             background: #1c1c1c;
-            margin: 15px;
             padding: 20px;
             border-radius: 12px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .highlight {
+            color: #00ffcc;
         }
     </style>
 </head>
@@ -55,24 +68,64 @@
 
 <div class="container">
     <h1>VELOXIA MOTO PARTS</h1>
-    <p>Premium Motorcycle Spare Parts Supplier</p>
+    <p>Indonesia Motorcycle Spare Parts Supplier</p>
 
-    <a class="btn" href="https://wa.me/6282110915648">Contact via WhatsApp</a>
+    <p class="highlight">Direct Factory • OEM Quality • Wholesale Price</p>
+
+    <a class="btn" href="https://wa.me/6282110915648">
+        Contact for Wholesale
+    </a>
 </div>
 
 <div class="section">
     <h2>Our Products</h2>
 
-    <div class="card">Brake Pads</div>
-    <div class="card">Spark Plug</div>
-    <div class="card">Air Filter</div>
-    <div class="card">V-Belt</div>
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x250" />
+            <h3>Brake Pads</h3>
+            <p>Strong braking performance & durable material</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x250" />
+            <h3>Spark Plug</h3>
+            <p>Standard & Iridium available</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x250" />
+            <h3>Air Filter</h3>
+            <p>Optimized airflow for engine efficiency</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/400x250" />
+            <h3>V-Belt</h3>
+            <p>High durability & long-lasting</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="section">
+    <h2>Why Choose Us</h2>
+    <p>✔ Direct factory supply</p>
+    <p>✔ Stable OEM quality</p>
+    <p>✔ Competitive pricing</p>
+    <p>✔ Bulk order ready</p>
+</div>
+
+<div class="section">
+    <h2>We Supply To</h2>
+    <p>Distributor • Workshop • Spare Part Shop • Online Seller</p>
 </div>
 
 <div class="section">
     <h2>Contact</h2>
-    <p>Phone: 0821 1091 5648</p>
-    <p>Email: veloxiamotoparts@gmail.com</p>
+    <p>📞 0821 1091 5648</p>
+    <p>📧 veloxiamotoparts@gmail.com</p>
 </div>
 
 </body>
